@@ -1,7 +1,7 @@
 # Code for Green & Zespół Szkół Politechnicznych im. Bohaterów Monte Cassino we Wrześni
 
 <p align="center">
-  <img src="/public/img/logo2.png?raw=true" alt="Code for Green logo">
+  <img src="https://github.com/pawel-kapela/code-for-green-particulate-matter-concentration-website/public/img/logo2.png?raw=true" alt="Code for Green logo">
 </p>
 
 ## Platforma czujnika mierzącego zanieczyszczenie powietrza przez pyły zawieszone PM1, PM2.5, PM10
