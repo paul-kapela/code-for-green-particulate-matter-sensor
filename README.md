@@ -27,6 +27,18 @@ Konfiguracja skryptu i jego połączenia z bazą danych oraz zaplanowanie jego u
 - Skonfiguruj połączenie czujnika z Internetem (np. poprzez Wi-Fi)
 - Pobierz plik ze skryptem z repozytorium i umieść go w dowolnym katalogu
 - Uzupełnij dane potrzebne do połączenia z bazą danych w pliku skryptu
+```
+database = mysql.connector.connect(
+    host = "<adres_hosta>",
+    user = "<nazwa_użytkownika_bazy_danych>",
+    passwd = "<hasło_do_bazy_danych>",
+    database = "<nazwa_bazy_danych>"
+    
+...
+
+query = "INSERT INTO <nazwa_tabeli> (date, pm1, pm25, pm10) VALUES (%s, %s, %s, %s)"
+)
+```
 - Nadaj skryptowi możliwość wykonywania się używając polecenia ```chmod +x <nazwa_pliku```
 - Skonfiguruj uruchamianie skryptu co minutę poprzez zawarty w sytemie mikrokomputera program ```cron``` ([ściągawka](https://devhints.io/cron))
 - Sprawdź poprawność działania całości
