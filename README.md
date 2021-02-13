@@ -26,6 +26,8 @@ Instalacja czujnika:
 Konfiguracja skryptu i jego połączenia z bazą danych oraz zaplanowanie jego uruchomień:
 - Skonfiguruj połączenie czujnika z Internetem (np. poprzez Wi-Fi)
 - Pobierz plik ze skryptem z repozytorium i umieść go w dowolnym katalogu
+- Zainstaluj wymagania z pliku requirements.txt, możesz do tego użyć poniższego polecenia
+```python3 -m pip install -r requirements.txt```
 - Uzupełnij dane potrzebne do połączenia z bazą danych w pliku skryptu
 ```
 database = mysql.connector.connect(
