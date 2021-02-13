@@ -39,7 +39,7 @@ database = mysql.connector.connect(
 query = "INSERT INTO <nazwa_tabeli> (date, pm1, pm25, pm10) VALUES (%s, %s, %s, %s)"
 )
 ```
-- Nadaj skryptowi możliwość wykonywania się używając polecenia ```chmod +x <nazwa_pliku```
+- Nadaj skryptowi możliwość wykonywania się używając polecenia ```chmod +x <nazwa_pliku>```
 - Skonfiguruj uruchamianie skryptu co minutę poprzez zawarty w sytemie mikrokomputera program ```cron``` ([ściągawka](https://devhints.io/cron))
 - Sprawdź poprawność działania całości
 
